@@ -11,11 +11,13 @@
 <body>
 <br>
 <br>
- <section class=" grid">
-                <div class="item">
-<h2>Gerenciando a Hero Api</h2>
-
-  <form name="cadastro" method="post" action="Api.php">
+<h2>Heroes API</h2>
+ 
+<section class=" grid">
+  <div class="item">
+  <br/>
+  <br/>
+  <form name="cadastro" method="get" action="DbOperation.php">
     Id: &nbsp; <input type="text" name="id" size="40" maxlength="20"> <br/> <br/>
     Nome: <input type="text" name="name"> <br/> <br/>
     Nome real: <input type="text" name="realname"> <br/> <br/>
@@ -36,7 +38,9 @@
     
   </form>
   </div>
-  </section>
+ </section>
+
+
 </body>
 </html>
 
